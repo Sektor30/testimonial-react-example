@@ -36,14 +36,35 @@ nav ul li a {
     text-decoration: none;
 }
 
+main{
+    display: flex;
+
+    width: 80%;
+    margin: auto;
+    flex-flow: column wrap;
+}
+
 section {
     padding: 50px;
     text-align: left;
+    width: 80%;
+    
+    margin: auto;
+    flex-flow: wrap column;
+    
   }
   
   section h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    
+    width: 100%;
+  }
+
+  section div{
+    width: 100%;
+    font-size: 30px;
+    justify-content: center;
   }
 
   body {
@@ -78,6 +99,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 0px;
+    
   }
   
   h1 {
