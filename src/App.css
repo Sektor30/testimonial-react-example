@@ -52,6 +52,7 @@ section {
     padding: 0;
     background: #f0f0f0;
     color: #333;
+    background-image: url('https://cdn.pixabay.com/photo/2019/04/08/13/52/paper-4112063_1280.jpg');
 }
 
 .App-header h1 {
@@ -72,8 +73,11 @@ footer {
 .App {
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2019/04/08/13/52/paper-4112063_1280.jpg');
+    background-position: contain ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px;
   }
   
   h1 {
